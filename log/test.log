@@ -1,0 +1,1285 @@
+2020-06-08 17:14:06 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:14:06 [Druid-ConnectionPool-Create-878274034] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoSuchFieldError: LUCENE_7_3_1
+	at org.elasticsearch.Version.<clinit>(Version.java:79) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.logging.DeprecationLogger.<clinit>(DeprecationLogger.java:146) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.unit.ByteSizeValue.<clinit>(ByteSizeValue.java:39) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.network.NetworkService.<clinit>(NetworkService.java:57) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.TransportSettings.<clinit>(TransportSettings.java:72) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.newPluginService(TransportClient.java:104) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:134) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:286) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:130) ~[transport-7.2.0.jar:7.2.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:55) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:50) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:46) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+2020-06-08 17:14:06 [Druid-ConnectionPool-Create-878274034] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:14:37 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:14:37 [Druid-ConnectionPool-Create-1514840818] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoSuchFieldError: LUCENE_7_3_1
+	at org.elasticsearch.Version.<clinit>(Version.java:79) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.logging.DeprecationLogger.<clinit>(DeprecationLogger.java:146) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.unit.ByteSizeValue.<clinit>(ByteSizeValue.java:39) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.network.NetworkService.<clinit>(NetworkService.java:57) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.TransportSettings.<clinit>(TransportSettings.java:72) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.newPluginService(TransportClient.java:104) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:134) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:286) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:128) ~[transport-6.1.3.jar:6.1.3]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:55) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:50) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:46) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+2020-06-08 17:14:37 [Druid-ConnectionPool-Create-1514840818] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:16:04 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:16:04 [Druid-ConnectionPool-Create-1295226194] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoSuchFieldError: LUCENE_7_3_1
+	at org.elasticsearch.Version.<clinit>(Version.java:79) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.logging.DeprecationLogger.<clinit>(DeprecationLogger.java:146) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.unit.ByteSizeValue.<clinit>(ByteSizeValue.java:39) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.network.NetworkService.<clinit>(NetworkService.java:57) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.TransportSettings.<clinit>(TransportSettings.java:72) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.newPluginService(TransportClient.java:104) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:134) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:286) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:128) ~[transport-6.1.3.jar:6.1.3]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:55) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:50) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:46) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+2020-06-08 17:16:04 [Druid-ConnectionPool-Create-1295226194] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:17:18 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:17:18 [Druid-ConnectionPool-Create-1514840818] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoSuchFieldError: LUCENE_7_0_0
+	at org.elasticsearch.Version.<clinit>(Version.java:51) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.logging.DeprecationLogger.<clinit>(DeprecationLogger.java:146) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.unit.ByteSizeValue.<clinit>(ByteSizeValue.java:39) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.network.NetworkService.<clinit>(NetworkService.java:57) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.TransportSettings.<clinit>(TransportSettings.java:72) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.newPluginService(TransportClient.java:104) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:134) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:286) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:128) ~[transport-6.1.3.jar:6.1.3]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:55) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:50) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:46) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+2020-06-08 17:17:18 [Druid-ConnectionPool-Create-1514840818] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:20:29 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:20:29 [Druid-ConnectionPool-Create-1890627974] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoClassDefFoundError: org/elasticsearch/xpack/client/PreBuiltXPackTransportClient
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.elasticsearch.xpack.client.PreBuiltXPackTransportClient
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_231]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_231]
+	... 3 more
+2020-06-08 17:20:29 [Druid-ConnectionPool-Create-1890627974] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:23:18 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:23:19 [Druid-ConnectionPool-Create-1477657879] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoSuchFieldError: LUCENE_7_4_0
+	at org.elasticsearch.Version.<clinit>(Version.java:82) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.logging.DeprecationLogger.<clinit>(DeprecationLogger.java:146) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.unit.ByteSizeValue.<clinit>(ByteSizeValue.java:39) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.common.network.NetworkService.<clinit>(NetworkService.java:57) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.TransportSettings.<clinit>(TransportSettings.java:72) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.newPluginService(TransportClient.java:104) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:134) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:286) ~[elasticsearch-7.2.0.jar:7.2.0]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:128) ~[transport-6.3.0.jar:6.3.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:55) ~[x-pack-transport-5.6.0.jar:5.6.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:50) ~[x-pack-transport-5.6.0.jar:5.6.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:46) ~[x-pack-transport-5.6.0.jar:5.6.0]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+2020-06-08 17:23:19 [Druid-ConnectionPool-Create-1477657879] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:24:05 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:24:05 [Druid-ConnectionPool-Create-1783047508] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoSuchMethodError: org.elasticsearch.common.settings.Settings$Builder.put([Ljava/lang/Object;)Lorg/elasticsearch/common/settings/Settings$Builder;
+	at org.elasticsearch.xpack.notification.email.Account.<clinit>(Account.java:71) ~[x-pack-api-5.6.0.jar:5.6.0]
+	at org.elasticsearch.xpack.XPackPlugin.<clinit>(XPackPlugin.java:192) ~[x-pack-api-5.6.0.jar:5.6.0]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_231]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_231]
+	at org.elasticsearch.plugins.PluginsService.loadPlugin(PluginsService.java:694) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:114) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.client.transport.TransportClient.newPluginService(TransportClient.java:107) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:132) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:280) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:128) ~[transport-6.3.0.jar:6.3.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:55) ~[x-pack-transport-5.6.0.jar:5.6.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:50) ~[x-pack-transport-5.6.0.jar:5.6.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:46) ~[x-pack-transport-5.6.0.jar:5.6.0]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+2020-06-08 17:24:05 [Druid-ConnectionPool-Create-1783047508] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:39:46 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:39:46 [Druid-ConnectionPool-Create-1783047508] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoSuchMethodError: org.elasticsearch.common.settings.Settings$Builder.put([Ljava/lang/Object;)Lorg/elasticsearch/common/settings/Settings$Builder;
+	at org.elasticsearch.xpack.notification.email.Account.<clinit>(Account.java:67) ~[x-pack-api-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.XPackPlugin.<clinit>(XPackPlugin.java:191) ~[x-pack-api-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_231]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_231]
+	at org.elasticsearch.plugins.PluginsService.loadPlugin(PluginsService.java:694) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:114) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.client.transport.TransportClient.newPluginService(TransportClient.java:107) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:132) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:280) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:128) ~[transport-6.3.0.jar:6.3.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:55) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:50) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:46) ~[x-pack-transport-6.0.0-alpha2.jar:6.0.0-alpha2]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+2020-06-08 17:39:46 [Druid-ConnectionPool-Create-1783047508] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:46:45 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:196 - no modules loaded
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:199 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:199 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:199 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:199 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:199 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:199 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoClassDefFoundError: org/elasticsearch/plugins/EnginePlugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_231]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_231]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468) ~[?:1.8.0_231]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74) ~[?:1.8.0_231]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369) ~[?:1.8.0_231]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363) ~[?:1.8.0_231]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_231]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_231]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_231]
+	at org.elasticsearch.xpack.core.XPackClientPlugin.additionalSettings(XPackClientPlugin.java:240) ~[x-pack-core-7.2.0.jar:7.2.0]
+	at org.elasticsearch.plugins.PluginsService.updatedSettings(PluginsService.java:209) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:136) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:280) ~[elasticsearch-6.3.0.jar:6.3.0]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:128) ~[transport-6.3.0.jar:6.3.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:47) ~[x-pack-transport-7.2.0.jar:7.2.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:42) ~[x-pack-transport-7.2.0.jar:7.2.0]
+	at org.elasticsearch.xpack.client.PreBuiltXPackTransportClient.<init>(PreBuiltXPackTransportClient.java:38) ~[x-pack-transport-7.2.0.jar:7.2.0]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.elasticsearch.plugins.EnginePlugin
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_231]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_231]
+	... 23 more
+2020-06-08 17:46:46 [Druid-ConnectionPool-Create-2023938592] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-06-08 17:49:44 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:49:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 17:49:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 17:49:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 17:49:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 17:49:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 17:49:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 17:49:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 17:49:46 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-08 17:49:46 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-08 17:51:05 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:51:06 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 17:51:06 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 17:51:06 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 17:51:06 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 17:51:06 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 17:51:06 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 17:51:06 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 17:53:22 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:53:23 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:197 - no modules loaded
+2020-06-08 17:53:23 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 17:53:23 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 17:53:23 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 17:53:23 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 17:53:23 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 17:53:23 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 17:58:22 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 17:58:23 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-08 17:58:23 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 17:58:23 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 17:58:23 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 17:58:23 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 17:58:23 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 17:58:23 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:00:28 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:00:28 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:00:28 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:00:28 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:00:28 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:00:28 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:00:28 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:00:28 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:02:05 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:02:06 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:02:06 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:02:06 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:02:06 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:02:06 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:02:06 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:02:06 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:02:43 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:02:44 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:02:44 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:02:44 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:02:44 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:02:44 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:02:44 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:02:44 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:05:09 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:05:10 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:05:10 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:05:10 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:05:10 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:05:10 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:05:10 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:05:10 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:06:30 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:06:30 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:06:30 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:06:30 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:06:30 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:06:30 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:06:30 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:06:30 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:08:19 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:08:20 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:08:20 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:08:20 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:08:20 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:08:20 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:08:20 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:08:20 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:08:21 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-08 18:08:22 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-08 18:14:47 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:14:47 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:14:47 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:14:47 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:14:47 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:14:47 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:14:47 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:14:47 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:15:23 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:15:24 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:15:24 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:15:24 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:15:24 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:15:24 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:15:24 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:15:24 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:16:29 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:16:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:16:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:16:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:16:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:16:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:16:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:16:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:16:31 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-08 18:16:31 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-08 18:16:48 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:16:48 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:16:48 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:16:48 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:16:48 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:16:48 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:16:48 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:16:48 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:16:50 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-08 18:16:50 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-08 18:17:27 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:17:27 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:17:27 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:17:27 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:17:27 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:17:27 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:17:27 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:17:27 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:18:03 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:18:04 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:18:04 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:18:04 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:18:04 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:18:04 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:18:04 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:18:04 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:18:05 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-08 18:18:06 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-08 18:29:42 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:29:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:29:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:29:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:29:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:29:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:29:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:29:44 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:30:14 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:30:14 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:30:14 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:30:14 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:30:14 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:30:14 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:30:14 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:30:14 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:30:52 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:30:53 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:30:53 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:30:53 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:30:53 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:30:53 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:30:53 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:30:53 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:31:29 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:31:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:31:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:31:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:31:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:31:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:31:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:31:29 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:33:28 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:33:28 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:33:28 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:33:28 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:33:28 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:33:28 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:33:28 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:33:28 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:34:12 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:34:12 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:34:12 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:34:12 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:34:12 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:34:12 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:34:12 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:34:12 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:34:41 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:34:41 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:34:41 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:34:41 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:34:41 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:34:41 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:34:41 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:34:41 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:34:59 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:34:59 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:34:59 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:34:59 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:34:59 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:34:59 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:34:59 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:34:59 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:35:43 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:35:43 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:35:43 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:35:43 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:35:43 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:35:43 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:35:43 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:35:43 [Druid-ConnectionPool-Create-177140066] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:36:45 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:36:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:36:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:36:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:36:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:36:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:36:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:36:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:36:47 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-08 18:36:48 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-08 18:37:15 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:37:16 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:37:16 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:37:16 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:37:16 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:37:16 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:37:16 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:37:16 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:39:49 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:39:50 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:39:50 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:39:50 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:39:50 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:39:50 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:39:50 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:39:50 [Druid-ConnectionPool-Create-2059572982] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:48:46 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-08 18:48:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-08 18:48:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-08 18:48:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-08 18:48:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-08 18:48:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-08 18:48:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-08 18:48:46 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-08 18:48:48 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-08 18:48:48 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-09 18:29:53 [main] INFO  ElasticSearchDruidDataSource:951 - {dataSource-1} inited
+2020-06-09 18:29:54 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:197 - no modules loaded
+2020-06-09 18:29:54 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 18:29:54 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 18:29:54 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 18:29:54 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 18:29:54 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 18:29:54 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 18:29:55 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:369)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:29:55 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:50749, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 19 more
+2020-06-09 18:29:55 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:29:55 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:50749, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:375) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:342) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:325) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 20 more
+2020-06-09 18:30:39 [main] INFO  ElasticSearchDruidDataSource:951 - {dataSource-1} inited
+2020-06-09 18:30:39 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:197 - no modules loaded
+2020-06-09 18:30:39 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 18:30:39 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 18:30:39 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 18:30:39 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 18:30:39 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 18:30:39 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 18:30:41 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:369)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:30:41 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:50914, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 19 more
+2020-06-09 18:30:41 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:30:41 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:50914, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:375) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:342) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:325) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 20 more
+2020-06-09 18:41:27 [main] INFO  ElasticSearchDruidDataSource:951 - {dataSource-1} inited
+2020-06-09 18:41:27 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:197 - no modules loaded
+2020-06-09 18:41:27 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 18:41:27 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 18:41:27 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 18:41:27 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 18:41:27 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 18:41:27 [Druid-ConnectionPool-Create-1948471365] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 18:41:29 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:369)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:41:29 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:53842, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 19 more
+2020-06-09 18:41:29 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:41:29 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:53842, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:375) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:342) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:325) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 20 more
+2020-06-09 18:45:25 [main] INFO  ElasticSearchDruidDataSource:951 - {dataSource-1} inited
+2020-06-09 18:45:25 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:197 - no modules loaded
+2020-06-09 18:45:25 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 18:45:25 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 18:45:25 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 18:45:25 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 18:45:25 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 18:45:25 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 18:45:26 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:369)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:45:26 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:55806, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 19 more
+2020-06-09 18:45:27 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:45:27 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:55806, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:375) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:342) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:325) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 20 more
+2020-06-09 18:57:01 [main] INFO  ElasticSearchDruidDataSource:951 - {dataSource-1} inited
+2020-06-09 18:57:02 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:197 - no modules loaded
+2020-06-09 18:57:02 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 18:57:02 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 18:57:02 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 18:57:02 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 18:57:02 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 18:57:02 [Druid-ConnectionPool-Create-758348212] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 18:57:04 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:369)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:57:04 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:60851, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 19 more
+2020-06-09 18:57:04 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:57:04 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:60851, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:375) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:342) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:325) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 20 more
+2020-06-09 18:58:24 [Druid-ConnectionPool-Create-1020923989] INFO  PluginsService:197 - no modules loaded
+2020-06-09 18:58:24 [Druid-ConnectionPool-Create-1020923989] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 18:58:24 [Druid-ConnectionPool-Create-1020923989] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 18:58:24 [Druid-ConnectionPool-Create-1020923989] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 18:58:24 [Druid-ConnectionPool-Create-1020923989] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 18:58:24 [Druid-ConnectionPool-Create-1020923989] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 18:58:24 [Druid-ConnectionPool-Create-1020923989] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 18:58:25 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:369)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:58:25 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:61705, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:240) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:346) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:367) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:353) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:537) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:491) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 19 more
+2020-06-09 18:58:25 [elasticsearch[_client_][transport_worker][T#1]] ERROR ExceptionsHelper:311 - fatal error
+	at org.elasticsearch.ExceptionsHelper.lambda$maybeDieOnAnotherThread$2(ExceptionsHelper.java:310)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.elasticsearch.ExceptionsHelper.maybeDieOnAnotherThread(ExceptionsHelper.java:300)
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.exceptionCaught(Netty4MessageChannelHandler.java:70)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:270)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:131)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:291)
+	at io.netty.channel.AbstractChannelHandlerContext.notifyHandlerException(AbstractChannelHandlerContext.java:854)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 18:58:25 [elasticsearch[_client_][transport_worker][T#1]] WARN  TcpTransport:611 - exception caught on transport layer [Netty4TcpChannel{localAddress=/172.20.10.6:61705, remoteAddress=one/172.20.10.7:9300}], closing connection
+io.netty.handler.codec.DecoderException: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:375) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:342) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:325) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.handler.logging.LoggingHandler.channelInactive(LoggingHandler.java:170) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:230) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1289) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:251) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:237) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:893) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:691) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+Caused by: java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedSlice(II)Lio/netty/buffer/ByteBuf;
+	at org.elasticsearch.transport.netty4.Netty4SizeHeaderFrameDecoder.decode(Netty4SizeHeaderFrameDecoder.java:49) ~[transport-netty4-client-7.2.0.jar:7.2.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	... 20 more
+2020-06-09 19:01:22 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-09 19:01:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-09 19:01:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 19:01:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 19:01:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 19:01:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 19:01:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 19:01:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 19:01:24 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-09 19:01:25 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-09 19:06:58 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-09 19:06:58 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-09 19:06:58 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 19:06:58 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 19:06:58 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 19:06:58 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 19:06:58 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 19:06:58 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 19:07:00 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-09 19:07:00 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-09 19:21:55 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-09 19:21:55 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-09 19:21:55 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-09 19:21:55 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-09 19:21:55 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-09 19:21:55 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-09 19:21:55 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-09 19:21:55 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-09 19:21:57 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-09 19:21:57 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-10 11:31:21 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-10 11:31:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:197 - no modules loaded
+2020-06-10 11:31:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-10 11:31:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-10 11:31:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-10 11:31:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-10 11:31:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-10 11:31:22 [Druid-ConnectionPool-Create-1796371666] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-10 11:31:23 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-10 11:31:24 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-10 11:32:08 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-10 11:32:09 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-10 11:32:09 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-10 11:32:09 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-10 11:32:09 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-10 11:32:09 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-10 11:32:09 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-10 11:32:09 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-10 11:32:11 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-10 11:32:11 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-10 11:35:36 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-10 11:35:36 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-10 11:35:36 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-10 11:35:36 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-10 11:35:36 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-10 11:35:36 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-10 11:35:36 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-10 11:35:36 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-10 11:36:01 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-10 11:36:01 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:197 - no modules loaded
+2020-06-10 11:36:01 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-10 11:36:01 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-10 11:36:01 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-10 11:36:01 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-10 11:36:01 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-10 11:36:01 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-10 11:36:21 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-10 11:36:21 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-10 11:36:21 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-10 11:36:21 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-10 11:36:21 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-10 11:36:21 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-10 11:36:21 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-10 11:36:21 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-10 11:36:23 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-10 11:36:23 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-06-10 11:36:39 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-06-10 11:36:39 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-06-10 11:36:39 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-06-10 11:36:39 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-06-10 11:36:39 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-06-10 11:36:39 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-06-10 11:36:39 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-06-10 11:36:39 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-06-10 11:36:41 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-06-10 11:36:41 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-07-08 17:14:32 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-07-08 17:14:32 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:197 - no modules loaded
+2020-07-08 17:14:32 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-07-08 17:14:32 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-07-08 17:14:32 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-07-08 17:14:32 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-07-08 17:14:32 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-07-08 17:14:32 [Druid-ConnectionPool-Create-2023938592] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-07-08 17:16:44 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-07-08 17:16:45 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:197 - no modules loaded
+2020-07-08 17:16:45 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-07-08 17:16:45 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-07-08 17:16:45 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-07-08 17:16:45 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-07-08 17:16:45 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-07-08 17:16:45 [Druid-ConnectionPool-Create-1427889191] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-07-08 17:16:47 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-07-08 17:16:47 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
+2020-07-08 17:21:43 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-07-08 17:21:43 [Druid-ConnectionPool-Create-1027591600] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoClassDefFoundError: org/elasticsearch/xpack/client/PreBuiltXPackTransportClient
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.elasticsearch.xpack.client.PreBuiltXPackTransportClient
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_231]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_231]
+	... 3 more
+2020-07-08 17:21:43 [Druid-ConnectionPool-Create-1027591600] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-07-08 17:22:22 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-07-08 17:22:22 [Druid-ConnectionPool-Create-1027591600] ERROR ElasticSearchDruidDataSource:53 - create connection Error
+java.lang.NoClassDefFoundError: org/elasticsearch/xpack/client/PreBuiltXPackTransportClient
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:1034) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource.createPhysicalConnection(ElasticSearchDruidDataSource.java:976) ~[elasticsearch-sql-7.2.0.0.jar:?]
+	at com.alibaba.druid.pool.ElasticSearchDruidDataSource$CreateConnectionThread.run(ElasticSearchDruidDataSource.java:2474) [elasticsearch-sql-7.2.0.0.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.elasticsearch.xpack.client.PreBuiltXPackTransportClient
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_231]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_231]
+	... 3 more
+2020-07-08 17:22:22 [Druid-ConnectionPool-Create-1027591600] INFO  DruidAbstractDataSource:106 - {dataSource-1} failContinuous is true
+2020-07-08 17:22:58 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} inited
+2020-07-08 17:22:59 [Druid-ConnectionPool-Create-366590980] INFO  PluginsService:197 - no modules loaded
+2020-07-08 17:22:59 [Druid-ConnectionPool-Create-366590980] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-07-08 17:22:59 [Druid-ConnectionPool-Create-366590980] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-07-08 17:22:59 [Druid-ConnectionPool-Create-366590980] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-07-08 17:22:59 [Druid-ConnectionPool-Create-366590980] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-07-08 17:22:59 [Druid-ConnectionPool-Create-366590980] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-07-08 17:22:59 [Druid-ConnectionPool-Create-366590980] INFO  PluginsService:200 - loaded plugin [org.elasticsearch.xpack.core.XPackClientPlugin]
+2020-07-08 17:23:00 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closing ...
+2020-07-08 17:23:01 [main] INFO  ElasticSearchDruidDataSource:106 - {dataSource-1} closed
